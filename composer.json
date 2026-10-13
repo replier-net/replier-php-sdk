@@ -1,0 +1,16 @@
+{
+    "name": "replier/replier-php",
+    "description": "Official PHP SDK for the Replier.net WhatsApp API",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["whatsapp", "replier", "api", "sdk", "messaging"],
+    "homepage": "https://www.replier.net",
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": { "Replier\\": "src/" }
+    }
+}
